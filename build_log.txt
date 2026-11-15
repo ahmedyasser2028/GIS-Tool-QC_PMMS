@@ -1,0 +1,257 @@
+=== QC_PMMS build (clean environment) === 
+Python 3.13.9
+Requirement already satisfied: pip in c:\users\a.yasser\downloads\new folder (3)\build_env\lib\site-packages (25.2)
+Collecting pip
+  Using cached pip-26.3-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.3-py3-none-any.whl (2.0 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.2
+    Uninstalling pip-25.2:
+      Successfully uninstalled pip-25.2
+Successfully installed pip-26.3
+Collecting pyogrio
+  Using cached pyogrio-0.13.0-cp311-abi3-win_amd64.whl.metadata (6.0 kB)
+Collecting shapely
+  Using cached shapely-2.2.0-cp313-cp313-win_amd64.whl.metadata (6.8 kB)
+Collecting pyproj
+  Using cached pyproj-3.8.0-cp313-cp313-win_amd64.whl.metadata (40 kB)
+Collecting numpy
+  Using cached numpy-2.5.4-cp313-cp313-win_amd64.whl.metadata (6.6 kB)
+Collecting openpyxl
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting pyinstaller
+  Using cached pyinstaller-6.22.3-py3-none-win_amd64.whl.metadata (8.5 kB)
+Collecting certifi (from pyogrio)
+  Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting packaging (from pyogrio)
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting et-xmlfile (from openpyxl)
+  Using cached et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting altgraph (from pyinstaller)
+  Using cached altgraph-0.17.5-py2.py3-none-any.whl.metadata (7.5 kB)
+Collecting pefile>=2022.5.30 (from pyinstaller)
+  Using cached pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+Collecting pyinstaller-hooks-contrib>=2026.7 (from pyinstaller)
+  Using cached pyinstaller_hooks_contrib-2026.10-py3-none-any.whl.metadata (16 kB)
+Collecting pywin32-ctypes>=0.2.1 (from pyinstaller)
+  Using cached pywin32_ctypes-0.2.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting setuptools>=42.0.0 (from pyinstaller)
+  Using cached setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+Using cached pyogrio-0.13.0-cp311-abi3-win_amd64.whl (23.8 MB)
+Using cached shapely-2.2.0-cp313-cp313-win_amd64.whl (1.8 MB)
+Using cached pyproj-3.8.0-cp313-cp313-win_amd64.whl (6.7 MB)
+Using cached numpy-2.5.4-cp313-cp313-win_amd64.whl (12.6 MB)
+Using cached openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Using cached pyinstaller-6.22.3-py3-none-win_amd64.whl (1.5 MB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pefile-2024.8.26-py3-none-any.whl (74 kB)
+Using cached pyinstaller_hooks_contrib-2026.10-py3-none-any.whl (463 kB)
+Using cached pywin32_ctypes-0.2.3-py3-none-any.whl (30 kB)
+Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+Using cached altgraph-0.17.5-py2.py3-none-any.whl (21 kB)
+Using cached certifi-2026.10.23-py3-none-any.whl (135 kB)
+Using cached et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Installing collected packages: altgraph, setuptools, pywin32-ctypes, pefile, packaging, numpy, et-xmlfile, certifi, shapely, pyproj, pyogrio, pyinstaller-hooks-contrib, openpyxl, pyinstaller
+
+Successfully installed altgraph-0.17.5 certifi-2026.10.23 et-xmlfile-2.0.0 numpy-2.5.4 openpyxl-3.1.5 packaging-26.3 pefile-2024.8.26 pyinstaller-6.22.3 pyinstaller-hooks-contrib-2026.10 pyogrio-0.13.0 pyproj-3.8.0 pywin32-ctypes-0.2.3 setuptools-84.2.1 shapely-2.2.0
+imports OK
+147 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+168 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.10
+168 INFO: Python: 3.13.9 (conda)
+189 INFO: Platform: Windows-10-10.0.18362-SP0
+189 INFO: Python environment: C:\Users\A.Yasser\Downloads\New folder (3)\build_env
+190 INFO: wrote C:\Users\A.Yasser\Downloads\New folder (3)\QC_PMMS.spec
+191 INFO: Removing temporary files and cleaning cache in C:\Users\A.Yasser\AppData\Local\pyinstaller
+122 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+126 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+125 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+2586 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\A.Yasser\\Downloads\\New folder (3)',
+ 'C:\\Users\\A.Yasser\\AppData\\Local\\anaconda3\\python313.zip',
+ 'C:\\Users\\A.Yasser\\AppData\\Local\\anaconda3\\DLLs',
+ 'C:\\Users\\A.Yasser\\AppData\\Local\\anaconda3\\Lib',
+ 'C:\\Users\\A.Yasser\\AppData\\Local\\anaconda3',
+ 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env',
+ 'C:\\Users\\A.Yasser\\Downloads\\New folder '
+ '(3)\\build_env\\Lib\\site-packages',
+ 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)']
+128 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+3050 INFO: Appending 'datas' from .spec
+3080 INFO: checking Analysis
+3080 INFO: Building Analysis because Analysis-00.toc is non existent
+3081 INFO: Looking for Python shared library...
+3081 INFO: Using Python shared library: C:\Users\A.Yasser\AppData\Local\anaconda3\python313.dll
+3081 INFO: Running Analysis Analysis-00.toc
+3081 INFO: Target bytecode optimization level: 0
+3081 INFO: Initializing module dependency graph...
+3082 INFO: Initializing module graph hook caches...
+3112 INFO: Analyzing modules for base_library.zip ...
+123 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+144 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+119 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+4316 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+4740 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+141 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+6377 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+7920 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+8401 INFO: Caching module dependency graph...
+8436 INFO: Analyzing C:\Users\A.Yasser\Downloads\New folder (3)\QC_PMMS.py
+8597 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+8636 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+8643 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+8645 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+8993 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+9104 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+9477 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+9479 INFO: SetuptoolsInfo: initializing cached setuptools info...
+250 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+10525 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+10842 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+12080 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+12311 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+12414 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+14153 INFO: Processing standard module hook 'hook-shapely.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14351 INFO: Processing standard module hook 'hook-pyproj.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14380 WARNING: Datas for pyproj not found at:
+C:\Users\A.Yasser\Downloads\New folder (3)\build_env\Library\share\proj
+14389 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14634 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+14794 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+14798 INFO: Processing standard module hook 'hook-openpyxl.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+15997 INFO: Analyzing hidden import 'pyogrio._geometry'
+15998 INFO: Analyzing hidden import 'pyogrio.tests'
+15998 INFO: Analyzing hidden import 'pyogrio.tests.conftest'
+16014 INFO: Analyzing hidden import 'pyogrio.tests.test_arrow'
+16054 INFO: Analyzing hidden import 'pyogrio.tests.test_core'
+16086 INFO: Analyzing hidden import 'pyogrio.tests.test_geopandas_io'
+16223 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+118 WARNING: Assuming this is not an Anaconda environment or an additional venv/pipenv/... environment manager is being used on top, because the conda-meta folder C:\Users\A.Yasser\Downloads\New folder (3)\build_env\conda-meta does not exist.
+16529 INFO: Analyzing hidden import 'pyogrio.tests.test_path'
+16543 INFO: Analyzing hidden import 'pyogrio.tests.test_raw_io'
+16606 INFO: Analyzing hidden import 'pyogrio.tests.test_util'
+16609 INFO: Analyzing hidden import 'pyproj.__main__'
+16614 INFO: Analyzing hidden import 'shapely._geos'
+16614 INFO: Analyzing hidden import 'shapely.conftest'
+16617 INFO: Analyzing hidden import 'shapely.plotting'
+16622 INFO: Analyzing hidden import 'shapely.speedups'
+16623 INFO: Analyzing hidden import 'shapely.testing'
+16629 INFO: Analyzing hidden import 'shapely.tests'
+16629 INFO: Analyzing hidden import 'shapely.tests.common'
+16639 INFO: Analyzing hidden import 'shapely.tests.geometry'
+16640 INFO: Analyzing hidden import 'shapely.tests.geometry.test_collection'
+16645 INFO: Analyzing hidden import 'shapely.tests.geometry.test_coords'
+16654 INFO: Analyzing hidden import 'shapely.tests.geometry.test_decimal'
+16659 INFO: Analyzing hidden import 'shapely.tests.geometry.test_emptiness'
+16665 INFO: Analyzing hidden import 'shapely.tests.geometry.test_equality'
+16676 INFO: Analyzing hidden import 'shapely.tests.geometry.test_format'
+16681 INFO: Analyzing hidden import 'shapely.tests.geometry.test_geometry_base'
+16701 INFO: Analyzing hidden import 'shapely.tests.geometry.test_hash'
+16703 INFO: Analyzing hidden import 'shapely.tests.geometry.test_linestring'
+16715 INFO: Analyzing hidden import 'shapely.tests.geometry.test_multi'
+16716 INFO: Analyzing hidden import 'shapely.tests.geometry.test_multilinestring'
+16721 INFO: Analyzing hidden import 'shapely.tests.geometry.test_multipoint'
+16727 INFO: Analyzing hidden import 'shapely.tests.geometry.test_multipolygon'
+16734 INFO: Analyzing hidden import 'shapely.tests.geometry.test_point'
+16744 INFO: Analyzing hidden import 'shapely.tests.geometry.test_polygon'
+16770 INFO: Analyzing hidden import 'shapely.tests.legacy'
+16770 INFO: Analyzing hidden import 'shapely.tests.legacy.conftest'
+16771 INFO: Analyzing hidden import 'shapely.tests.legacy.test_affinity'
+16785 INFO: Analyzing hidden import 'shapely.tests.legacy.test_box'
+16787 INFO: Analyzing hidden import 'shapely.tests.legacy.test_buffer'
+16798 INFO: Analyzing hidden import 'shapely.tests.legacy.test_cga'
+16801 INFO: Analyzing hidden import 'shapely.tests.legacy.test_clip_by_rect'
+16805 INFO: Analyzing hidden import 'shapely.tests.legacy.test_create_inconsistent_dimensionality'
+16813 INFO: Analyzing hidden import 'shapely.tests.legacy.test_delaunay'
+16816 INFO: Analyzing hidden import 'shapely.tests.legacy.test_empty_polygons'
+16817 INFO: Analyzing hidden import 'shapely.tests.legacy.test_equality'
+16819 INFO: Analyzing hidden import 'shapely.tests.legacy.test_geointerface'
+16824 INFO: Analyzing hidden import 'shapely.tests.legacy.test_invalid_geometries'
+16826 INFO: Analyzing hidden import 'shapely.tests.legacy.test_linear_referencing'
+16832 INFO: Analyzing hidden import 'shapely.tests.legacy.test_linemerge'
+16834 INFO: Analyzing hidden import 'shapely.tests.legacy.test_locale'
+16836 INFO: Analyzing hidden import 'shapely.tests.legacy.test_make_valid'
+16839 INFO: Analyzing hidden import 'shapely.tests.legacy.test_mapping'
+16840 INFO: Analyzing hidden import 'shapely.tests.legacy.test_minimum_clearance'
+16841 INFO: Analyzing hidden import 'shapely.tests.legacy.test_ndarrays'
+16844 INFO: Analyzing hidden import 'shapely.tests.legacy.test_nearest'
+16845 INFO: Analyzing hidden import 'shapely.tests.legacy.test_operations'
+16852 INFO: Analyzing hidden import 'shapely.tests.legacy.test_operators'
+16856 INFO: Analyzing hidden import 'shapely.tests.legacy.test_orient'
+16862 INFO: Analyzing hidden import 'shapely.tests.legacy.test_parallel_offset'
+16866 INFO: Analyzing hidden import 'shapely.tests.legacy.test_persist'
+16869 INFO: Analyzing hidden import 'shapely.tests.legacy.test_pickle'
+16874 INFO: Analyzing hidden import 'shapely.tests.legacy.test_polygonize'
+16877 INFO: Analyzing hidden import 'shapely.tests.legacy.test_polylabel'
+16881 INFO: Analyzing hidden import 'shapely.tests.legacy.test_predicates'
+16886 INFO: Analyzing hidden import 'shapely.tests.legacy.test_prepared'
+16890 INFO: Analyzing hidden import 'shapely.tests.legacy.test_products_z'
+16891 INFO: Analyzing hidden import 'shapely.tests.legacy.test_shape'
+16895 INFO: Analyzing hidden import 'shapely.tests.legacy.test_shared_paths'
+16898 INFO: Analyzing hidden import 'shapely.tests.legacy.test_singularity'
+16899 INFO: Analyzing hidden import 'shapely.tests.legacy.test_snap'
+16901 INFO: Analyzing hidden import 'shapely.tests.legacy.test_split'
+16917 INFO: Analyzing hidden import 'shapely.tests.legacy.test_substring'
+16929 INFO: Analyzing hidden import 'shapely.tests.legacy.test_svg'
+16942 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+17133 INFO: Analyzing hidden import 'shapely.tests.legacy.test_transform'
+17142 INFO: Analyzing hidden import 'shapely.tests.legacy.test_union'
+17146 INFO: Analyzing hidden import 'shapely.tests.legacy.test_validation'
+17147 INFO: Analyzing hidden import 'shapely.tests.legacy.test_vectorized'
+17155 INFO: Analyzing hidden import 'shapely.tests.legacy.test_voronoi_diagram'
+17161 INFO: Analyzing hidden import 'shapely.tests.legacy.test_wkb'
+17169 INFO: Analyzing hidden import 'shapely.tests.legacy.test_wkt'
+17172 INFO: Analyzing hidden import 'shapely.tests.legacy.threading_test'
+17174 INFO: Analyzing hidden import 'shapely.tests.test_constructive'
+17251 INFO: Analyzing hidden import 'shapely.tests.test_coordinates'
+17276 INFO: Analyzing hidden import 'shapely.tests.test_coverage'
+17296 INFO: Analyzing hidden import 'shapely.tests.test_creation'
+17332 INFO: Analyzing hidden import 'shapely.tests.test_creation_indices'
+17359 INFO: Analyzing hidden import 'shapely.tests.test_decorators'
+17366 INFO: Analyzing hidden import 'shapely.tests.test_geometry'
+17399 INFO: Analyzing hidden import 'shapely.tests.test_io'
+17453 INFO: Analyzing hidden import 'shapely.tests.test_linear'
+17465 INFO: Analyzing hidden import 'shapely.tests.test_measurement'
+17479 INFO: Analyzing hidden import 'shapely.tests.test_misc'
+17590 INFO: Analyzing hidden import 'shapely.tests.test_plotting'
+17597 INFO: Analyzing hidden import 'shapely.tests.test_predicates'
+17620 INFO: Analyzing hidden import 'shapely.tests.test_ragged_array'
+17645 INFO: Analyzing hidden import 'shapely.tests.test_set_operations'
+17668 INFO: Analyzing hidden import 'shapely.tests.test_strtree'
+17765 INFO: Analyzing hidden import 'shapely.tests.test_testing'
+17769 INFO: Processing module hooks (post-graph stage)...
+17787 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks'
+17806 INFO: Performing binary vs. data reclassification (1427 entries)
+19034 INFO: Looking for ctypes DLLs
+19083 INFO: Analyzing run-time hooks ...
+19086 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+19089 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+19091 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+19094 INFO: Including run-time hook 'pyi_rth_pyproj.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+19095 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+19138 INFO: Creating base_library.zip...
+19161 INFO: Looking for dynamic libraries
+20148 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\shapely.libs', 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\numpy.libs', 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\pyproj.libs', 'C:\\Users\\A.Yasser\\Downloads\\New folder (3)\\build_env\\Lib\\site-packages\\pyogrio.libs']
+20148 INFO: Extra DLL search directories (PATH): []
+21386 INFO: Warnings written to C:\Users\A.Yasser\Downloads\New folder (3)\build\QC_PMMS\warn-QC_PMMS.txt
+21453 INFO: Graph cross-reference written to C:\Users\A.Yasser\Downloads\New folder (3)\build\QC_PMMS\xref-QC_PMMS.html
+21527 INFO: checking PYZ
+21527 INFO: Building PYZ because PYZ-00.toc is non existent
+21527 INFO: Building PYZ (ZlibArchive) C:\Users\A.Yasser\Downloads\New folder (3)\build\QC_PMMS\PYZ-00.pyz
+22054 INFO: Building PYZ (ZlibArchive) C:\Users\A.Yasser\Downloads\New folder (3)\build\QC_PMMS\PYZ-00.pyz completed successfully.
+22097 INFO: checking PKG
+22097 INFO: Building PKG because PKG-00.toc is non existent
+22098 INFO: Building PKG (CArchive) QC_PMMS.pkg
+36342 INFO: Building PKG (CArchive) QC_PMMS.pkg completed successfully.
+36376 INFO: Bootloader C:\Users\A.Yasser\Downloads\New folder (3)\build_env\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+36377 INFO: checking EXE
+36377 INFO: Building EXE because EXE-00.toc is non existent
+36377 INFO: Building EXE from EXE-00.toc
+36377 INFO: Copying bootloader EXE to C:\Users\A.Yasser\Downloads\New folder (3)\dist\QC_PMMS.exe
+36447 INFO: Copying icon to EXE
+36481 INFO: Copying 0 resources to EXE
+36481 INFO: Embedding manifest in EXE
+36515 INFO: Appending PKG archive to EXE
+36670 INFO: Fixing EXE headers
+40925 INFO: Building EXE from EXE-00.toc completed successfully.
+40967 INFO: Build complete! The results are available in: C:\Users\A.Yasser\Downloads\New folder (3)\dist
